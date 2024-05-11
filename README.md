@@ -56,8 +56,8 @@ For more information on how these commands work learn about node creation in ROS
 3. Launch manual drive
     - ```ros2 launch f1tenth_system bringup_launch.py``` (or use the alias if you have set it up)
 
-4. Launch the algorithm
-    - ```ros2 launch follow_the_gap follow_the_gap``` (or use the alias if you have set it up). This step is the same for any other algorithm you want to run.
+4. In another terminal, launch the algorithm
+    - ```ros2 run follow_the_gap follow_the_gap``` (or use the alias if you have set it up). This step is the same for any other algorithm you want to run.
 
 ## Camera feed
 
