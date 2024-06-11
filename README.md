@@ -42,7 +42,7 @@ To run the project:
 1. Source the workspace
     - ```source /path/to/your/workspace/install/setup.bash```
 2. Source ROS2
-    - ```source /opt/ros/foxy/setup.bash``` (or whichever ROS2 version you are using)
+    - ```source /opt/ros/foxy/setup.bash``` (or whichever ROS2 version you are using if not foxy)
 
 > [!tip]
 > The two steps mentioned can be added into your `.bashrc` file to avoid sourcing every time you open a new terminal. Also, you can alias the following commands in your .bashrc file to avoid typing them every time you want to run the project:
